@@ -1,0 +1,11 @@
+{
+  "project_name": "Addon Name",
+  "project_package_name": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+  "project_slug": "{{ cookiecutter.project_package_name.replace('-', '_') }}",
+  "project_class": "{{ cookiecutter.project_name.replace(' ', '') }}",
+  "project_class_plural": "{{ cookiecutter.project_class + 's' }}",
+  "project_config_class": "{{ cookiecutter.project_class }}Config",
+  "project_config_class_plural": "{{ cookiecutter.project_config_class + 's' }}",
+  "project_short_description": "Addon description",
+  "version": "0.0.1"
+}

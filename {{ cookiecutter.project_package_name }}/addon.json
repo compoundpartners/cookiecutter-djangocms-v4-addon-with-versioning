@@ -1,0 +1,6 @@
+{
+    "package-name": "{{ cookiecutter.project_package_name }}",
+    "installed-apps": [
+        "{{ cookiecutter.project_slug }}"
+    ]
+}
